@@ -1,16 +1,15 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import AddIcon from "@material-ui/icons/Add";
 import styled from "styled-components";
 
 const FormStyle = styled.div`
-
-    position: relative;
-    width: 480px;
-    margin: 30px auto 20px auto;
-    background: #fff;
-    padding: 15px;
-    border-radius: 7px;
-    box-shadow: 0 1px 5px rgb(138, 137, 137);
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
 
   input {
     width: 100%;
@@ -36,7 +35,7 @@ const FormStyle = styled.div`
     position: absolute;
     right: 18px;
     bottom: -18px;
-    background: #7891e2;
+    background: var(--light);
     color: #fff;
     border: none;
     border-radius: 50%;

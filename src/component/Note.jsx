@@ -6,22 +6,24 @@ const NoteStyle = styled.div`
   position: relative;
   background: #fff;
   border-radius: 7px;
-  box-shadow: 0 2px 5px #ccc;
-  padding: 10px;
+  box-shadow: 0 2px 5px var(--gray);
+  padding: 15px;
   width: 240px;
   margin: 16px;
 
   h1 {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     margin-bottom: 6px;
     white-space: pre-wrap;
     word-wrap: break-word;
+    color: var(--dark);
   }
 
   p {
     display: block;
-    font-size: 1.1em;
-    margin-bottom: 20px;
+    font-size: 1.1rem;
+    padding-bottom: 16px;
+    margin-bottom: 25px;
     white-space: pre-wrap;
     word-wrap: break-word;
   }
@@ -30,8 +32,8 @@ const NoteStyle = styled.div`
     position: absolute;
     bottom: 0;
     right: 15px;
-    margin-right: -10px;
-    color: #7891e2;
+    margin-right: -11px;
+    color: var(--light);
     background-color: #fff;
     border: none;
     width: 36px;
